@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>forms
+        </title>
+    </head>
+    <body>
+        <forms>
+         <fieldset>
+           <label for="First"> First name:</label><br>
+           <input type="text"><br>
+           <label for="Second">Second name:</label><br>
+           <input type="text"><br>
+       <br>
+        <label for="Dob">Date Of Birth </label>
+        <input type="datetime-local" id="dob" required/><br>
+        <label for="Dob">Dob</label>
+        <input type="date" id="birth" min="2000-01-01" max="2023-06-30"/><br>
+           <label for="Email"> Email Id:</label><br>
+           <input type="Email" id="Email" requried autofocous><br>
+           <label for="phone">phone number:</label><br>
+           <input type="number" id="pn" maxlength="10" size="10" required><br>
+           <label for="Gender">Gender:</label><br>
+           <input type="radio" id="female" name="gn" value="female">
+          <label for="female">female</label><br>
+          <input type="radio" id="Male" name="gn" value="Male">
+          <label for="Male">Male</label><br>
+          <input type="radio" id="other" name="gn" value="other">
+          <label for="other">other</label><br>
+          <!--input type="submit"><br-->
+          <label for="Branch">choose the Branch</label>
+           <select name="Branch"> id="Branch">
+           <option value="CSE">CSE</option>
+           <option value="IT">IT</option>
+           <option value="ECE">ECE</option>
+           <option value="CIVIL">CIVIL</option>
+           <option value="EEE">EEE</option>
+        </select><br>
+        <label>Pick your Fav Color</label>
+        <input type="color" id="color" required/></br>
+        <label> Select a file</label><br>
+        <input type="file" multiple/><br/>
+        <label for="bdaymonth"> Birthday(month and year):</label><br/>
+       <input type="month" name="bdaymoth"/> <br>
+       <label for="points">Points:</label><br>
+       <input type="number" name="points" step="10"><br>
+       <label> Password</label><br/>
+       <input type="Password" name="pw"/><br/>
+       <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYMJkm8Pw0xEln0yQ1EkmOW_-cZLRyo5VnokTATPQ&s" alt="submit" width="48" height="60"><br>
+       <br>
+       <input type="reset"/>
+       <br>
+    </fieldset><br>
+    <fieldset>
+    <label>select the food items</label><br>
+    <input type="checkbox" name="fd" id="fd" value="a"/>
+    <label for="fd">Briyani</label><br>
+    <input type="checkbox" name="fd1" id="fd1" value="b"/>
+    <label for="fd1">ice cream</label><br>
+    <input type="checkbox" name="fd2" id="fd2" value="c"/>
+    <label for="fd2">noodles</label><br>
+    <input type="checkbox" name="fd3" id="fd3" value="d"/>
+    <label for="fd3">cool drink</label><br>
+    <input type="submit"/>
+</fieldset>
+        </forms>
+    </body>
+</html> 
